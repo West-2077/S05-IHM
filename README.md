@@ -48,3 +48,4 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
    ```bash
    git clone https://github.com/seu-usuario/Trabalho-Fetin-089.git
    cd Trabalho-Fetin-089
+  
