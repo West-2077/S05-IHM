@@ -53,8 +53,8 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
 
 4. **Acesse o painel Wazuh**
    - http://localhost:5601
-  
-🚀 Execução da Automação
+
+## 🚀 Execução da Automação
 
 Quando o Wazuh estiver rodando, o script de automação ficará monitorando alerts.json e:
 
