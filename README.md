@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![Wazuh](https://img.shields.io/badge/Wazuh-4.x-orange)
-![Licença](https://img.shields.io/badge/license-MIT-green)
 
 <p align="center">
   <img src="https://wazuh.com/assets/img/wazuh_logo.svg" alt="Wazuh Logo" width="250"/>
@@ -54,4 +53,14 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
 
 4. **Acesse o painel Wazuh**
    - http://localhost:5601
+  
+🚀 Execução da Automação
+
+Quando o Wazuh estiver rodando, o script de automação ficará monitorando alerts.json e:
+
+- Detectará alertas críticos.
+
+- Executará respostas automáticas (como bloqueio de IP).
+
+- Registrará eventos para auditoria.
   
