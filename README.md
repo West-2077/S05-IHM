@@ -53,7 +53,7 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
 
 ## 🚀 Execução da Automação
 
-Quando o Wazuh estiver rodando, o script de automação ficará monitorando alerts.json e:
+Quando o Wazuh estiver rodando, o script de automação ficará monitorando `alerts.json` e:
 
 - Detectará alertas críticos.
 
