@@ -48,3 +48,41 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
    ```bash
    git clone https://github.com/seu-usuario/Trabalho-Fetin-089.git
    cd Trabalho-Fetin-089
+
+3. Suba os containers
+docker-compose up -d
+
+4. Acesse o painel Wazuh
+
+http://localhost:5601
+
+🚀 Execução da Automação
+
+Quando o Wazuh estiver rodando, o script de automação ficará monitorando alerts.json e:
+
+Detectará alertas críticos.
+
+Executará respostas automáticas (como bloqueio de IP).
+
+Registrará eventos para auditoria.
+
+📊 Fluxograma do Processo
+
+flowchart TD
+    A[Início] --> B[Ler alerts.json]
+    B --> C{Alerta crítico?}
+    C -- Sim --> D[Executar ação automática]
+    D --> E[Registrar incidente]
+    E --> B
+    C -- Não --> B
+
+
+📄 Licença
+Este projeto está sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+
+
+---
+
+Se quiser, eu também posso **criar uma imagem PNG do fluxograma** para que o GitHub exiba mesmo em repositórios onde o `mermaid` não é renderizado.  
+Quer que eu gere essa imagem para você agora?
+
