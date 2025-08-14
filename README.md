@@ -48,4 +48,10 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
    ```bash
    git clone https://github.com/seu-usuario/Trabalho-Fetin-089.git
    cd Trabalho-Fetin-089
+3. **Suba os containers**
+   ```bash
+   docker-compose up -d
+
+4. **Acesse o painel Wazuh**
+-http://localhost:5601
   
