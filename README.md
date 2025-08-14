@@ -53,5 +53,5 @@ O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM l
    docker-compose up -d
 
 4. **Acesse o painel Wazuh**
--http://localhost:5601
+   - http://localhost:5601
   
