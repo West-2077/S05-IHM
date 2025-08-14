@@ -2,15 +2,15 @@
 
 Este projeto monitora os alertas gerados pelo SIEM Wazuh em tempo real e executa respostas automáticas com base no tipo e nível do alerta.
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
-📄 Leitura e análise do arquivo alerts.json em tempo real.
+## 📄 Leitura e análise do arquivo alerts.json em tempo real.
 
-🚫 Execução de ações automáticas, como bloqueio de IP malicioso.
+## 🚫 Execução de ações automáticas, como bloqueio de IP malicioso.
 
-📝 Registro de incidentes para auditoria e acompanhamento.
+## 📝 Registro de incidentes para auditoria e acompanhamento.
 
-🐳 Instalação do Wazuh com Docker
+## 🐳 Instalação do Wazuh com Docker
 
 O projeto utiliza a imagem oficial do Wazuh para criar um ambiente de SIEM local de forma rápida e prática.
 
