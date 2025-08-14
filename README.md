@@ -1,56 +1,50 @@
 # Trabalho-Fetin-089 — Automação de Respostas a Alertas do Wazuh
 
-Este projeto monitora os alertas gerados pelo SIEM Wazuh em tempo real e executa respostas automáticas com base no tipo e nível do alerta.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![Wazuh](https://img.shields.io/badge/Wazuh-4.x-orange)
+![Licença](https://img.shields.io/badge/license-MIT-green)
 
-## 📌 Funcionalidades
+<p align="center">
+  <img src="https://wazuh.com/assets/img/wazuh_logo.svg" alt="Wazuh Logo" width="250"/>
+</p>
 
-## 📄 Leitura e análise do arquivo alerts.json em tempo real.
+---
 
-## 🚫 Execução de ações automáticas, como bloqueio de IP malicioso.
+## 📌 Sobre o Projeto
+Este projeto monitora os alertas gerados pelo **SIEM Wazuh** em tempo real e executa **respostas automáticas** com base no tipo e nível do alerta.
 
-## 📝 Registro de incidentes para auditoria e acompanhamento.
+---
+
+## 📜 Funcionalidades
+- 📄 Leitura e análise do arquivo `alerts.json` em tempo real.  
+- 🚫 Ações automáticas como **bloqueio de IP** malicioso.  
+- 📝 Registro de incidentes para auditoria e acompanhamento.  
+
+---
 
 ## 🐳 Instalação do Wazuh com Docker
 
-O projeto utiliza a imagem oficial do Wazuh para criar um ambiente de SIEM local de forma rápida e prática.
+O projeto utiliza a **imagem oficial do Wazuh** para criar um ambiente de SIEM local.
 
-Componentes Utilizados
+### Componentes Utilizados
+- `wazuh/wazuh-manager` — Gerenciamento de agentes e regras.  
+- `wazuh/wazuh-indexer` — Armazenamento e indexação de logs e alertas.  
+- `wazuh/wazuh-dashboard` — Interface gráfica para análise e visualização.  
 
-wazuh/wazuh-manager — Responsável pelo gerenciamento de agentes e regras.
+---
 
-wazuh/wazuh-indexer — Armazena e indexa os logs e alertas.
+## 📚 Documentação Oficial
+- [Documentação Wazuh - Docker](https://documentation.wazuh.com/current/deployment-options/docker/index.html)  
+- [Repositório Oficial no GitHub](https://github.com/wazuh/wazuh-docker)  
 
-wazuh/wazuh-dashboard — Interface gráfica para visualização e análise.
+---
 
-📚 Documentação Oficial
+## ⚙️ Etapas de Instalação
+1. **Instale o Docker Desktop**  
+   - [Download Docker Desktop](https://www.docker.com/products/docker-desktop)  
 
-Documentação Wazuh - Docker
-
-Repositório Oficial no GitHub
-
-⚙️ Etapas de Instalação
-
-1. Instale o Docker Desktop
-
-  Download Docker Desktop
-
-2. Clone este repositório
+2. **Clone este repositório**  
+   ```bash
    git clone https://github.com/seu-usuario/Trabalho-Fetin-089.git
-cd Trabalho-Fetin-089
-
-3. Suba os containers
-   docker-compose up -d
-   
-4. Acesse o painel Wazuh
-
-Abra no navegador: http://localhost:5601
-
-🚀 Execução da Automação
-
-Após o Wazuh estar rodando, o script de automação ficará monitorando o arquivo alerts.json e:
-
-Identificará alertas críticos.
-
-Executará comandos de resposta (como bloqueio de IP via firewall).
-
-Registrará todos os eventos para posterior análise.
+   cd Trabalho-Fetin-089
