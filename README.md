@@ -12,7 +12,7 @@
 ---
 
 ## 📌 Sobre o Projeto
-Este projeto monitora os alertas gerados pelo **SIEM Wazuh** em tempo real e executa **respostas automáticas** com base no tipo e nível do alerta.
+O **Trabalho-Fetin-089** é uma solução que monitora alertas gerados pelo **SIEM Wazuh** em tempo real e executa **respostas automáticas** com base no tipo e nível do alerta.
 
 ---
 
