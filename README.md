@@ -4,9 +4,6 @@
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![Wazuh](https://img.shields.io/badge/Wazuh-4.x-orange)
 
-<p align="center">
-  <img src="https://wazuh.com/assets/img/wazuh_logo.svg" alt="Wazuh Logo" width="250"/>
-</p>
 
 ---
 
